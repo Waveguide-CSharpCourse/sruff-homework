@@ -21,6 +21,7 @@ namespace Homework2
             List<int> numbers = new List<int>();
 
             bool enteringData = true;
+            // take user input
             while (enteringData)
             {
                 Console.WriteLine("Enter data. Enter ? when finished.");
@@ -41,11 +42,13 @@ namespace Homework2
                 }
             }
 
+            // call functions to calculate required information and assign results to variables
             float avg = Average(numbers);
             int sum = Sum(numbers);
             int max = Max(numbers);
             int min = Min(numbers);
 
+            // output the numbers entered
             Console.Write("Numbers entered: ");
             foreach (int value in numbers)
             {
@@ -53,6 +56,7 @@ namespace Homework2
             }
             Console.WriteLine();
 
+            // output the text entered
             Console.Write("Strings entered: ");
             foreach (string value in text)
             {
@@ -60,6 +64,7 @@ namespace Homework2
             }
             Console.WriteLine();
 
+            // output the calculated values
             Console.WriteLine("Average value is: " + avg);
             Console.WriteLine("Sum is: " + sum);
             Console.WriteLine("Max is: " + max);
