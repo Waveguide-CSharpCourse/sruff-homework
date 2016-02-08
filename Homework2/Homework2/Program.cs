@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+    Waveguide C# Course
+    Homework 2
+    Steve Ruff
+    2/8/2016
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +20,6 @@ namespace Homework2
             List<string> text = new List<string>();
             List<int> numbers = new List<int>();
 
-            // Console.OpenStandardOutput();
             bool enteringData = true;
             while (enteringData)
             {
