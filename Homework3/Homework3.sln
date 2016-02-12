@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "Homework3\Home
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A52AB18A-21BF-4F13-BA35-54A627EE5949}"
 	ProjectSection(SolutionItems) = preProject
+		Homework3\data\DataFiles.zip = Homework3\data\DataFiles.zip
 		Homework3\data\Suntrust1.xml = Homework3\data\Suntrust1.xml
 		Homework3\data\Suntrust2.xml = Homework3\data\Suntrust2.xml
 		Homework3\data\Suntrust3.xml = Homework3\data\Suntrust3.xml
