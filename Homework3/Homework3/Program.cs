@@ -86,7 +86,11 @@ namespace Homework3
             excel.Range["D1"].Value = bankDataTable.Columns[3].ColumnName;
             excel.Range["E1"].Value = bankDataTable.Columns[4].ColumnName;
             excel.Range["F1"].Value = bankDataTable.Columns[5].ColumnName;
-            
+            // set date and time format for column F
+            excel.Range["F1", "F99"].NumberFormat = "M/D/YYYY H:MM AM/PM";
+            // set width for column F
+            excel.Range["F1"].EntireColumn.ColumnWidth = 17;
+
             // shamelessly stolen from Terri
             int j = 2;
             foreach (DataRow row in bankDataTable.Rows)
