@@ -23,6 +23,7 @@ namespace Summer
         {
             result += int.Parse(textBox1.Text);
             textBox2.Text = String.Concat(result);
+            textBox1.Clear();
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
